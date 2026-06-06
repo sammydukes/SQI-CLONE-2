@@ -95,6 +95,9 @@ p{
 .container{
     width: 80%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 h2{
     font-size: 42px;
@@ -152,8 +155,8 @@ h4{
     margin-top: 250px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    
+    /* flex-wrap: wrap;     */
+    margin-bottom: 150px;
 }
 h5{
     font-family: "Poppins", sans-serif;
@@ -187,7 +190,7 @@ h5{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    box-shadow: 10px 10px 10px 10px #d6ecdb;
+    box-shadow: 20px 10px 10px  #d6ecdb;
 }
 .se p{
     font-size: 14px;
@@ -270,6 +273,7 @@ h6{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    box-shadow: 20px 20px 10px  #ffe3df;
 }
 .ds p{
     font-size: 14px;
@@ -305,6 +309,7 @@ h6{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    box-shadow: 20px 20px 10px  #ffe3df;
 }
 .dw p{
     font-size: 14px;
@@ -326,3 +331,149 @@ h6{
 .dw1 p a{
     text-decoration: none;
 }
+.logos{
+    /* border: 1px solid ; */
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.logos div {
+    width: 15dvw;
+    /* height: 90px; */
+}
+.logos div img{
+    width: 70%;
+}
+/* table{
+    border: 1px solid;
+    width: 80%;
+    height: 100px;
+    
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid;
+     height: 40px;
+    width: 40px; 
+    padding: 15px;
+ } */
+/* .tour-section {
+    width: 100dvw; 
+    height: 50dvh;
+    background-color: #00208a; 
+    background-image: url("./media/DSC_9054-scaled.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 300px;
+}
+.duke{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+}
+.vid{
+    width: 40%;
+    border: 1px solid;
+
+}
+.tour-text{
+    width: 40%;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:start;
+    border: 1px solid;
+    gap: 20px;
+}
+.tour-text h6{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tour-text p{
+    color: #fff;
+} */
+ /* Tour Section */
+.tour-section {
+  background: linear-gradient(90deg, #5b1c57 0%, #0d2e78 100%);
+  padding: 70px 0;
+}
+.tour-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+.video-box {
+  position: relative;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  background: #ddd;
+}
+.video-box img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 85px;
+  height: 60px;
+  background: #ff0000;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+.tour-content h1 {
+  font-size: 64px;
+  line-height: 1.1;
+  color: #fff;
+  margin-bottom: 24px;
+  font-weight: 800;
+}
+.tour-content p {
+  color: #f0f3ff;
+  font-size: 21px;
+  line-height: 1.8;
+  max-width: 620px;
+  margin-bottom: 30px;
+}
+.apply-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #1496ff, #005de8);
+  color: #fff;
+  text-decoration: none;
+  padding: 16px 34px;
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.apply-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 93, 232, 0.3);
+}
+/* Testimonials preview 
+.testimonial-preview {
+  background: #fff;
+  padding: 60px 0;
+} */
