@@ -1284,7 +1284,9 @@ iframe{
 }
 footer{
     width: 100%;
+    position: fixed;
     background-color: purple;
+    bottom: 0;
 }
 @media screen and (max-width: 768px) {
     nav{
@@ -1405,5 +1407,9 @@ footer{
     }
     .footer{
         margin-top:120dvh;
+    }
+    iframe{
+        width: 100%;
+        height: 30dvh;
     }
 }
